@@ -1,9 +1,9 @@
 {
   "tests": [
     {
-      "name": "All tests",
+      "name": "Constructor",
       "setup": "mvn compile",
-      "run": "mvn -Dtest=SportsTest test",
+      "run": "mvn -Dtest=SportsTest#Should_call_Constructor test",
       "input": "",
       "output": "",
       "comparison": "included",
