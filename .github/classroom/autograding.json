@@ -2,13 +2,13 @@
   "tests": [
     {
       "name": "All tests",
-      "setup": "mvn test",
+      "setup": "mvn compile",
       "run": "mvn -Dtest=SportsTest test",
       "input": "",
       "output": "",
       "comparison": "included",
-      "timeout": 10,
-      "points": null
+      "timeout": 3,
+      "points": 5
     }
   ]
 }
