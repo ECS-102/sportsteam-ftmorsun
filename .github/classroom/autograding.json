@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "All tests",
+      "setup": "mvn test",
+      "run": "mvn -Dtest=SportsTest test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
